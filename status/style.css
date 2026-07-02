@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    background:#0b1622;
+    font-family:'Roboto Mono', monospace;
+    color:white;
+}
+
+.header{
+    background:#001a33;
+    padding:25px;
+    text-align:center;
+    border-bottom:4px solid #00bfff;
+}
+
+.header h1{
+    margin:0;
+    font-size:38px;
+    letter-spacing:3px;
+}
+
+.header p{
+    margin-top:8px;
+    color:#9ecfff;
+}
+
+.container{
+    width:95%;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:#111;
+    box-shadow:0 0 30px rgba(0,0,0,.5);
+}
+
+th{
+    background:#003366;
+    color:#fff;
+    padding:18px;
+    font-size:18px;
+}
+
+td{
+    padding:20px;
+    text-align:center;
+    font-size:18px;
+    border-bottom:1px solid #333;
+}
+
+tr:hover{
+    background:#1a1a1a;
+}
+
+.status{
+    color:#4cff72;
+    font-weight:bold;
+}
+
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    color:#00bfff;
+}
