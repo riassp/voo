@@ -65,3 +65,26 @@ tr:hover{
     font-weight:bold;
     color:#00bfff;
 }
+
+@media (max-width: 768px){
+
+    .logo{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .header p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    table{
+        font-size: 13px;
+    }
+
+    th,
+    td{
+        padding: 8px;
+    }
+
+}
